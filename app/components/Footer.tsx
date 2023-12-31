@@ -54,7 +54,7 @@ export default function Footer() {
           <p className="ml-4">aakriti@canaraengineering.in</p>
         </div>
       </div>
-      <div className="bg-[#BAFCA2] text-black mt-4 p-3 text-md font-medium tracking-wide sm:w-1/2 rounded-lg">
+      <div className="bg-white text-black mt-4 p-3 text-md font-medium tracking-wide sm:w-1/2 rounded-lg">
         <h1 className="text-xl font-bold">Links</h1>
         <Link href={"https://www.canaraengineering.in/"} target="_blank">
           <p className="underline">Privacy Policy</p>
