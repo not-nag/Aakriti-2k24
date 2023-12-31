@@ -2,6 +2,7 @@ import React from "react";
 import Icon from "./Icon";
 import { IoCallSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -52,6 +53,21 @@ export default function Footer() {
           <MdEmail />
           <p className="ml-4">aakriti@canaraengineering.in</p>
         </div>
+      </div>
+      <div className="bg-[#BAFCA2] text-black mt-4 p-3 text-md font-medium tracking-wide sm:w-1/2 rounded-lg">
+        <h1 className="text-xl font-bold">Links</h1>
+        <Link href={"https://www.canaraengineering.in/"} target="_blank">
+          <p className="underline">Privacy Policy</p>
+        </Link>
+        <Link href={"https://www.canaraengineering.in/"} target="_blank">
+          <p className="underline">Refund & Cancellation Policy</p>
+        </Link>
+        <Link href={"https://www.canaraengineering.in/"} target="_blank">
+          <p className="underline">Terms & Conditions</p>
+        </Link>
+        <Link href={"https://www.canaraengineering.in/"} target="_blank">
+          <p className="underline">Shipping Policy</p>
+        </Link>
       </div>
     </footer>
   );

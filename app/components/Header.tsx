@@ -10,7 +10,7 @@ const poppins = Poppins({
 export default function Header({}) {
   return (
     <nav className="flex justify-between items-center bg-white h-[80px] p-2">
-      <h1 className="text-3xl sm:text-3xl md:text-3xl font-bold tracking-wider ">
+      <h1 className="text-[28px] sm:text-3xl md:text-3xl font-bold tracking-wider ">
         Aakriti 2k24
       </h1>
       <Button text={"Login"} />
