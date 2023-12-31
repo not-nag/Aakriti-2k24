@@ -6,8 +6,10 @@ import { MdEmail } from "react-icons/md";
 export default function Footer() {
   return (
     <footer className="p-4 bg-black text-white">
-      <h1 className="text-3xl font-medium">Canara Engineering College</h1>
-      <p className="text-sm">
+      <h1 className="text-3xl font-medium tracking-wider">
+        Canara Engineering College
+      </h1>
+      <p className="text-sm tracking-widest">
         Benjanapadavu, Bantwal Taluk, Mangaluru, Dakshina Kannada, Karnataka,
         India - 574219.
       </p>
@@ -39,7 +41,7 @@ export default function Footer() {
         />
       </div>
       <div className="mt-5 tracking-wide">
-        <h2 className="text-lg border-white bg-[#FF6B6B] text-black w-max mb-2 p-1 px-2 border-4 font-semibold rounded-md">
+        <h2 className="text-lg  bg-[#F4D738] text-black w-max mb-2 p-1 px-2  font-semibold rounded-md">
           Technical Support
         </h2>
         <div className="flex items-center text-lg">
