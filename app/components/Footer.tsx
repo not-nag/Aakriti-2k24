@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="p-4 bg-black text-white">
+    <footer className="p-4 bg-black text-white sm:px-10">
       <h1 className="text-3xl font-medium tracking-wider">
         Canara Engineering College
       </h1>

@@ -5,8 +5,8 @@ import Button from "./Button";
 import { Poppins } from "next/font/google";
 import { useAuth } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
+import { useClerk } from "@clerk/clerk-react";
 
-import { UserButton } from "@clerk/nextjs";
 import Link from "next/link";
 
 const poppins = Poppins({
@@ -15,11 +15,12 @@ const poppins = Poppins({
 });
 
 export default function Header({}) {
+  const { signOut } = useClerk();
   const { isSignedIn } = useAuth();
   const pathname = usePathname();
 
   return (
-    <nav className="flex justify-between items-center bg-white h-[80px] p-2">
+    <nav className="flex justify-between items-center bg-white h-[80px] p-2 sm:px-10">
       <Link href={"/"}>
         <h1 className="text-[28px] sm:text-3xl md:text-3xl font-bold tracking-wider ">
           Aakriti 2k24
@@ -27,15 +28,17 @@ export default function Header({}) {
       </Link>
       {isSignedIn ? (
         pathname === "/dashboard" ? (
-          <UserButton afterSignOutUrl="/" />
+          <Link href="/" onClick={() => signOut()}>
+            <Button text={"Logout"} bg="yellow-500" />
+          </Link>
         ) : (
           <Link href={"/dashboard"}>
-            <Button text={"Profile"} />
+            <Button text={"Profile"} bg="yellow-500" />
           </Link>
         )
       ) : (
         <Link href={"/dashboard"}>
-          <Button text={"Login"} />
+          <Button text={"Login"} bg="yellow-500" />
         </Link>
       )}
     </nav>
