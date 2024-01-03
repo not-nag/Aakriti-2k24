@@ -29,16 +29,16 @@ export default function Header({}) {
       {isSignedIn ? (
         pathname === "/dashboard" ? (
           <Link href="/" onClick={() => signOut()}>
-            <Button text={"Logout"} bg="yellow-500" />
+            <Button text={"Logout"} bg="bg-yellow-500" />
           </Link>
         ) : (
           <Link href={"/dashboard"}>
-            <Button text={"Profile"} bg="yellow-500" />
+            <Button text={"Profile"} bg="bg-yellow-500" />
           </Link>
         )
       ) : (
         <Link href={"/dashboard"}>
-          <Button text={"Login"} bg="yellow-500" />
+          <Button text={"Login"} bg="bg-yellow-500" />
         </Link>
       )}
     </nav>

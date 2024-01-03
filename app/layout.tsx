@@ -20,15 +20,15 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-        <html lang="en">
-          <body
-            className={`${poppins.className} border-4 rounded-lg border-black w-full `}
-          >
-            <Header />
-            {children}
-            <Footer />
-          </body>
-        </html>
+      <html lang="en">
+        <body
+          className={`${poppins.className} border-4 rounded-lg border-black w-full `}
+        >
+          <Header />
+          {children}
+          <Footer />
+        </body>
+      </html>
     </ClerkProvider>
   );
 }
