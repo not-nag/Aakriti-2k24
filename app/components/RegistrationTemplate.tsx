@@ -18,6 +18,7 @@ export default function RegistrationTemplate({ email }) {
           degree: formData.get("degree"),
           branch: formData.get("branch"),
           address: formData.get("address"),
+          usn: formData.get("usn"),
         }),
         {
           pending: "Uploading details...",
