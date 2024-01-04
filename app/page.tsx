@@ -51,7 +51,7 @@ export default function Home() {
             </figure>
             <div className="px-6 py-5 text-left h-full sm:text-center text-white">
               <p className=" font-medium tracking-wider sm:text-2xl sm:mb-2">
-                Aakriti.
+                आकृति.
               </p>
               <h1 className=" mb-3 font-semibold text-3xl sm:text-5xltracking-wider">
                 Wall of fame.
