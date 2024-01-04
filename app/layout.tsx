@@ -22,7 +22,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`${poppins.className} border-4 rounded-lg border-black w-full `}
+          className={`${poppins.className} border-4 rounded-lg border-black w-full  mx-auto `}
         >
           <Header />
           {children}
