@@ -1,34 +1,60 @@
 import Image from "next/image";
 import SwiperCard from "./components/SwiperCard";
-import { Caveat } from "next/font/google";
-const montserrat = Caveat({ subsets: ["latin"] });
+import { Caveat, Roboto_Mono } from "next/font/google";
+const roboto_mono = Roboto_Mono({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div>
-      <div className="">
-        <Image
-          src="/home_first.webp"
-          alt="Aakriti 2K24"
-          width={1920}
-          height={1500}
-          className=""
-        ></Image>
-      </div>
-      <div className="relative pt-[220px] bg-black">
-        <div
-          className={`${montserrat.className} lg:pt-5 sm:px-10 absolute text-white text-2xl text-center top-2 font-semibold sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl`}
-        >
-          <span className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-            Aakriti
-          </span>{" "}
-          is a vibrant three-day inter-college festival uniting 5000+ students.
-          Join us to celebrate achievement, engage in diverse activities, and
-          showcase your creativity at CEC!
-          <div className="text-white w-max mx-auto p-4 px-8 mt-2 sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl rounded-full border-white border-2">
-            <p>On 25th, 26th and 27th of April.</p>
+    <div className="bg-black">
+      <div className="bg-black h-5"></div>
+      <div
+        className={`${roboto_mono.className} bg-black pb-6 pt-2 max-w-[1400px] mx-auto`}
+      >
+        <div className="bg-black border-white border-2 rounded-lg sm:text-xl">
+          <div className="border-b-2 h-[40px] flex justify-start items-center">
+            <div className=" mx-2 border-4 bord rounded-full border-red-400 bg-red-400 h-[15px] w-[15px]"></div>
+            <div className="  border-4 bord rounded-full border-yellow-300 bg-yellow-300 h-[15px] w-[15px]"></div>
+            <div className=" mx-2 border-4 bord rounded-full border-green-400 bg-green-400 h-[15px] w-[15px]"></div>
+            <div className="text-white ml-auto pr-4">/canara_engineering</div>
+          </div>
+          <div className="text-white p-4 sm:p-10">
+            <h1
+              className={`${roboto_mono.className}  max-w-max mx-auto my-4 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-4xl md:text-5xl   text-[#00ff00] font-light`}
+            >
+              $ Aakriti 2024
+            </h1>
+            <p>
+              Aakriti is a vibrant three-day inter-college festival uniting
+              5000+ students. Join us to celebrate achievement, engage in
+              diverse activities, and showcase your creativity at CEC!
+            </p>
+            <p className="pt-4">
+              <span className="text-[#00ff00]">&gt;&gt;</span> On April 25th,
+              26th and 27th
+            </p>
+            <p>
+              <span className="text-[#00ff00]">&gt;&gt;</span> Exciting
+              Tournaments
+            </p>
+            <p>
+              <span className="text-[#00ff00]">&gt;&gt;</span> DJ Nights
+            </p>
+            <p>
+              <span className="text-[#00ff00]">&gt;&gt;</span> Auto Expo
+            </p>
           </div>
         </div>
+      </div>
+
+      <div>
+        <p
+          className={`${roboto_mono.className} top-2 relative sm:top-10 text-white text-center max-w-[800px] mx-auto text-xl sm:text-2xl md:text-3xl`}
+        >
+          <span className="text-3xl sm:text-4xl md:text-5xl">
+            Astronaut uncle
+          </span>{" "}
+          has already started exploring the events. What are you waiting for ?
+        </p>
 
         <Image
           src="/home_second.webp"
