@@ -90,15 +90,6 @@ export default function Home() {
           </article>
         </div>
       </div>
-      <div>
-        <Image
-          src="/home_fourth.webp"
-          alt="Aakriti 2K24"
-          width={1920}
-          height={1500}
-          className=""
-        ></Image>
-      </div>
     </div>
   );
 }
