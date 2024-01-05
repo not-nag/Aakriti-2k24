@@ -8,7 +8,7 @@ export default function Home() {
     <div className="bg-black">
       <div className="bg-black h-5"></div>
       <div
-        className={`${roboto_mono.className} bg-black pb-6 pt-2 max-w-[1400px] mx-auto px-2`}
+        className={`${roboto_mono.className} bg-black pb-6 pt-2 max-w-[900px] mx-auto px-2`}
       >
         <div className="bg-black border-white border-2 rounded-lg sm:text-xl">
           <div className="border-b-2 h-[40px] flex justify-start items-center">
