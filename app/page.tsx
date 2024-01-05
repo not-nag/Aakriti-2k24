@@ -12,9 +12,9 @@ export default function Home() {
       >
         <div className="bg-black border-white border-2 rounded-lg sm:text-xl">
           <div className="border-b-2 h-[40px] flex justify-start items-center">
-            <div className=" mx-2 border-4 bord rounded-full border-red-400 bg-red-400 h-[15px] w-[15px]"></div>
-            <div className="  border-4 bord rounded-full border-yellow-300 bg-yellow-300 h-[15px] w-[15px]"></div>
-            <div className=" mx-2 border-4 bord rounded-full border-green-400 bg-green-400 h-[15px] w-[15px]"></div>
+            <div className=" mx-2 border-4 bord rounded-full border-red-500 bg-red-500 h-[15px] w-[15px]"></div>
+            <div className="  border-4 bord rounded-full border-amber-400 bg-amber-400 h-[15px] w-[15px]"></div>
+            <div className=" mx-2 border-4 bord rounded-full border-green-500 bg-green-500 h-[15px] w-[15px]"></div>
             <div className="text-white ml-auto pr-4">/canara_engineering</div>
           </div>
           <div className="text-white p-4 sm:p-10">
