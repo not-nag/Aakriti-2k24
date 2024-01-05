@@ -19,7 +19,7 @@ export default function Home() {
           </div>
           <div className="text-white p-4 sm:p-10">
             <h1
-              className={`${roboto_mono.className}  max-w-max mx-auto mb-10 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-4xl md:text-5xl   text-[#00ff00] font-normal`}
+              className={`${roboto_mono.className}  max-w-max mx-auto mb-4 animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-3xl sm:text-4xl md:text-5xl   text-[#00ff00] font-normal`}
             >
               $ Aakriti 2024
             </h1>
